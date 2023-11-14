@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: TopToPlace
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"TopToPlace","summary":"Detects
+      touch on an AR Plane a portal Obj","pan":{"x":-94.0,"y":205.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-258.0,"y":-143.0},"guid":"fee60b12-45b4-46a2-9821-7e3456dc00c5","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"App
+      Started","$type":"System.String"}},"position":{"x":-23.0,"y":-144.0},"guid":"58de205b-449a-47ef-aa97-cdea5c253d4e","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"DebugText","$type":"System.String"},"object":null},"position":{"x":-204.0,"y":11.0},"guid":"5a3104e8-4e49-4822-9d91-5193e535fdb2","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"touch
+      detected","$type":"System.String"}},"position":{"x":-11.0,"y":207.0},"guid":"0a44a3d5-2a1e-49c5-9b94-7bd77ef88db2","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"DebugText","$type":"System.String"},"object":null},"position":{"x":-192.0,"y":362.0},"guid":"7e8e76f3-e99a-4aba-9b32-7ff266a581ee","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"19"},{"chainable":false,"parameterNames":["index"],"member":{"name":"GetTouch","parameterTypes":["System.Int32"],"targetType":"UnityEngine.Input","targetTypeName":"UnityEngine.Input","$version":"A"},"defaultValues":{"%index":{"$content":0,"$type":"System.Int32"}},"position":{"x":-226.0,"y":208.0},"guid":"41aca44d-c927-4074-b25e-cd3acb100f07","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"21"},{"coroutine":false,"defaultValues":{},"position":{"x":-456.0,"y":209.0},"guid":"141bd2d1-c7c1-4784-a8f5-cd8751090f91","$version":"A","$type":"Unity.VisualScripting.Update","$id":"25"},{"sourceUnit":{"$ref":"21"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"81121ebd-379d-4d66-b4a9-ee5313d9b7a7","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"e1c55c3c-46d0-4815-a956-96e1f525a2e6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"trigger","destinationUnit":{"$ref":"21"},"destinationKey":"enter","guid":"12367ade-b947-4e4e-9ca7-37b342ef6660","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"99b06d48-f506-47cc-acbf-27550b768252","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"ceadc69c-4f63-444e-ab0d-14210f54a5f5","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
