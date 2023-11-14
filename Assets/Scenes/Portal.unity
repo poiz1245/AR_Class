@@ -292,10 +292,12 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"arRayCastManager","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.XR.ARFoundation.ARRaycastManager,
       Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"hits","value":{"$content":[],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
       Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"portalSpawn","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ARplaneManager","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.XR.ARFoundation.ARPlaneManager,
+      Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1539683895}
     - {fileID: 2101349437}
+    - {fileID: 2101349436}
 --- !u!4 &155193823
 Transform:
   m_ObjectHideFlags: 0
@@ -718,6 +720,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Debug UI
       objectReference: {fileID: 0}
+    - target: {fileID: 593586452833943557, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878198250319824533, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.2443848
+      objectReference: {fileID: 0}
     - target: {fileID: 2465396340839820452, guid: 64859e4afa563934ab64a0abb1ca7a60,
         type: 3}
       propertyPath: m_Pivot.x
@@ -821,6 +833,46 @@ PrefabInstance:
     - target: {fileID: 2465396340839820452, guid: 64859e4afa563934ab64a0abb1ca7a60,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689293364034051149, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689293364034051149, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689293364034051149, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689293364034051149, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689293364034051149, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689293364034051149, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689293364034051149, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 174.29846
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689293364034051149, guid: 64859e4afa563934ab64a0abb1ca7a60,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
